@@ -9,6 +9,8 @@ function outer() {
     return inner;
 }
 outer()(); // 10 // over here first `()` will return inner function and then using secong `()` to call inner function 
+
+
 Q2: Will the below code still forms a closure?
 function outer() {
     function inner() {
